@@ -1,0 +1,14 @@
+ a{
+    font-size: 18px;
+    color:red; 
+    text-decoration:none;
+  }
+  h1 {
+     font-family: 'Times New Roman', Times, serif;      
+ }
+#segundo {
+    color: green;
+}
+.link {
+    color: darkmagenta
+}
