@@ -17,7 +17,7 @@ function errou (){
     alertErrou.removeAttribute ("hidden",); 
     divBotao.setAttribute ("hidden", "");
     btnVoltar.removeAttribute ("hidden");
-    imagem.src = "x.png";
+    imagem.src = "erro.jpg";
     console.log ("fim errou"); 
 }
 console.log ("js aberto")  
