@@ -1,11 +1,7 @@
 .botoes {
-    width: 418px;
+    width: 300px;
 }
 .acertou {
-    width: 418px;
-    text-align: center;
-}
-.errou {
-    width: 418px;
+    width: 300px;
     text-align: center;
 }

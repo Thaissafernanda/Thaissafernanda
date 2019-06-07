@@ -27,10 +27,18 @@
         <img id="imagem-animal" src="cat.jpg" alt="animal" class="img-thumbnail mx-auto d-block" width="300" >
 
     <div class="mx-auto botoes mt-3 "  >
-            <button class="btn btn-outline-primary btn-lg active" onclick="errou () "  role="button" aria-pressed="true"> Tigre </button>
-            <button class="btn btn-outline-primary btn-lg active" onclick="errou () "  role="button" aria-pressed="true"> Guepardo </button>
-            <button class="btn btn-outline-primary btn-lg active" onclick="errou () "  role="button" aria-pressed="true"> Cachorro </button>
-            <button class="btn btn-outline-primary btn-lg active" onclick="acertou () "  role="button" aria-pressed="true"> Gato </button> 
+        <div id="div-botao" class="row">
+                <button class="btn btn-outline-primary btn-lg col-5 mb-3" onclick="errou () "  role="button" aria-pressed="true"> Tigre </button>
+                <div class="col-2"></div>
+                <button class="btn btn-outline-primary btn-lg col-5 mb-3" onclick="errou () "  role="button" aria-pressed="true"> Guepardo </button>
+                <button class="btn btn-outline-primary btn-lg col-5" onclick="errou () "  role="button" aria-pressed="true"> Cachorro </button>
+                <div class="col-2"></div>
+                <button class="btn btn-outline-primary btn-lg col-5" onclick="acertou () "  role="button" aria-pressed="true"> Gato </button> 
+        </div>
+        <div id="alert-acertou" class="alert alert-success acertou mx-auto mt-3" hidden role="alert">
+                    Você acertou
+            
+            </div>
 
     </div>
      
