@@ -9,6 +9,10 @@ function acertou (){
 }
 function errou (){
     var imagem = document.getElementById ('imagem-animal');
+    var divBotao = document.getElementById ('div-botao');
+    var alertErrou = document.getElementById ('alert-errou');
+    alertErrou.removeAttribute ("hidden",);
+    divBotao.setAttribute ("hidden", "");
     imagem.src = "x.png";
     console.log ("fim errou"); 
 }
