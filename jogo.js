@@ -1,12 +1,13 @@
 function acertou (){
     var imagem = document.getElementById ('imagem-animal');
-    imagem.src = "cachorro.jpg";
+    imagem.src = "gato.jpg";
     var divBotao = document.getElementById ('div-botao');
     var alertAcertou = document.getElementById ('alert-acertou');
-    var btnProximo= document.getElementById ('btn-proximo');
+    var btnVoltar= document.getElementById ('btn-voltar');
     alertAcertou.removeAttribute ("hidden",);
     divBotao.setAttribute ("hidden", "");
-    btnProxima.setAttribute ("hidden");
+    btnVoltar.removeAttribute("hidden"); 
+    btnProximo.removeAttribute("hidden");
     console.log ("fim acertou");  
 }
 function errou (){
@@ -19,5 +20,10 @@ function errou (){
     btnVoltar.removeAttribute ("hidden");
     imagem.src = "erro.jpg";
     console.log ("fim errou"); 
+}
+function Nova()
+{
+location.href="site.html"
+console.log ("proximo")
 }
 console.log ("js aberto")  
