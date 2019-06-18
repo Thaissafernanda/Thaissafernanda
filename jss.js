@@ -1,12 +1,12 @@
 function acertou (){
     var imagem = document.getElementById ('imagem-animal');
-    imagem.src = "gato.jpg";
+    imagem.src = "cachorro.jpg";
     var divBotao = document.getElementById ('div-botao');
     var alertAcertou = document.getElementById ('alert-acertou');
-    var btnProximo= document.getElementById ('btn-proximor');
+    var btnVoltar= document.getElementById ('btn-voltar');
     alertAcertou.removeAttribute ("hidden",);
     divBotao.setAttribute ("hidden", "");
-    btnProximo.removeAttribute("hidden","");
+    btnVoltar.removeAttribute("hidden"); 
     console.log ("fim acertou");  
 }
 function errou (){

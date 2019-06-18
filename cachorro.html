@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="jogo.css">
-    <script src="jogo.js"></script>
+    <script src="jss.js"></script>
     
 </head>
 
@@ -20,20 +20,19 @@
             </a>
         </nav>
      </header>
-
      
     <main  class="container">
      <h1 class="text-center mt-3 mb-3"  >Qual é o animal? </h1>
-        <img id="imagem-animal" src="cat.jpg" alt="animal" class="img-thumbnail mx-auto d-block" width="300" >
+        <img id="imagem-animal" src="dog.png" alt="animal" class="img-thumbnail mx-auto d-block" width="300" >
 
     <div class="mx-auto botoes mt-3 "  >
         <div id="div-botao" class="row">
                 <button class="btn btn-outline-primary btn-lg col-5 mb-3" onclick="errou () "> Tigre </button>
                 <div class="col-2"></div>
-                <button class="btn btn-outline-primary btn-lg col-5 mb-3" onclick="errou () "> Guepardo </button>
-                <button class="btn btn-outline-primary btn-lg col-5" onclick="errou () "> Cachorro </button>
+                <button class="btn btn-outline-primary btn-lg col-5 mb-3" onclick="errou () "> Leopardo </button>
+                <button class="btn btn-outline-primary btn-lg col-5" onclick="errou () "> Lobo </button>
                 <div class="col-2"></div>
-                <button class="btn btn-outline-primary btn-lg col-5" onclick="acertou () "> Gato </button> 
+                <button class="btn btn-outline-primary btn-lg col-5" onclick="acertou () "> Cachorro </button> 
         </div>
                 <div id="alert-acertou" class="alert alert-success mx-auto mt-3" hidden role="alert">
                     Você acertou
@@ -41,12 +40,8 @@
                 <div id="alert-errou" class="alert alert-danger mx-auto mt-3" hidden role="alert">
                     Você errou    
                 </div>
-                <button id="btn-voltar" class="btn btn-outline-primary btn-lg col-5" onclick=" location.reload () " hidden >Voltar</button>    
-                </div>
-                <button id="btn-proximo" class="btn btn-outline-primary btn-lg col-5" onclick=" location.cachorro.html () " hidden >Próximo</button>    
-                <div>
-
-                </div>
+                <button id="btn-voltar" class="btn btn-outline-primary btn-lg col-5" onclick=" location.reload () " hidden >Voltar</button>             
+        </div>
 
     </div>
      
