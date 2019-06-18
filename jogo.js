@@ -6,7 +6,6 @@ function acertou (){
     var btnProximo= document.getElementById ('btn-proximor');
     alertAcertou.removeAttribute ("hidden",);
     divBotao.setAttribute ("hidden", "");
-    btnProximo.setAttribute("hidden","");
     console.log ("fim acertou");  
 }
 function errou (){
