@@ -8,6 +8,8 @@ function acertou (){
     divBotao.setAttribute ("hidden", "");
     btnVoltar.removeAttribute("hidden"); 
     btnProximo.removeAttribute("hidden");
+    location.href="site.html"
+
     console.log ("fim acertou");  
 }
 function errou (){
@@ -20,10 +22,5 @@ function errou (){
     btnVoltar.removeAttribute ("hidden");
     imagem.src = "erro.jpg";
     console.log ("fim errou"); 
-}
-function Nova()
-{
-location.href="site.html"
-console.log ("proximo")
 }
 console.log ("js aberto")  
