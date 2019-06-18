@@ -3,6 +3,7 @@ function acertou (){
     imagem.src = "gato.jpg";
     var divBotao = document.getElementById ('div-botao');
     var alertAcertou = document.getElementById ('alert-acertou');
+    var btnProximo = document.getElementById ('btn-proximo');
     alertAcertou.removeAttribute ("hidden",);
     divBotao.setAttribute ("hidden", "");
     console.log ("fim acertou");  
