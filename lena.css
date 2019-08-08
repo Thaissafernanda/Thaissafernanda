@@ -2,17 +2,10 @@ body {
     font-family: 'Courier New', Courier, monospace;
     margin: center;
     }
-
-}
-#wrap {
-    width: 920px;
-    margin: auto;
-    background: ghostwhite;
-    padding: 10px 20px;
-}
 h1 {
     text-align: center
 }
+
 IMG.displayed {
     display: block;
     margin-left: auto;
