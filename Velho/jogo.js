@@ -1,6 +1,6 @@
 function acertou (){
     var imagem = document.getElementById ('imagem-animal');
-    imagem.src = "gato.jpg";
+    imagem.src = "cachorro.jpg";
     var divBotao = document.getElementById ('div-botao');
     var alertAcertou = document.getElementById ('alert-acertou');
     var btnVoltar= document.getElementById ('btn-voltar');
