@@ -1,31 +1,44 @@
 <html>
-    <head> 
-        <link rel="icon" href="favicon.png" type="image/png" />
-        <title>Thaissa</title>
-        <style>
-            marquee {
-                color: blue;
-            }
-            #ameaca {
-                color: darkgreen;
-                font-size: 15px;
-            }
-            .imagem-animada {
-                width: 200px;
-                border: 4px solid black;
-                transition: all 1s ease-in-out;
-             }
-             .imagem-animada:hover {
-                 opacity: 0;
-                 transform: rotate(360deg) scale(0,2);
-                
-         </style> 
-         <meta charset="utf-8" />
-    </head>
-    <body>
-        <marquee> Frida </marquee>
-        <img class="imagem-animada" src="cãoo.jpg" /> 
-        <p id="ameaca" > Eu vou roubar frida</p>
-        <a href="Thaissa.html">Clique aqui</a>
-    </body>
+
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+  </head>
+
+  <body>
+  
+    <div id="outside">
+    
+      <p id="outside-title">
+        Te amo meu amor
+      </p>
+
+      <img id="outside-pic" src="polli.gif">
+
+      <p>
+        <button onclick="open_card()">Clique para abrir</button>
+      </p>
+
+    </div>
+  
+    <div id="inside">
+    
+      <p id="inside-title">
+        Minha Alguinha
+      </p>
+      
+      <img id="inside-pic" src="IMG_20190925_171507_591.jpg">
+      
+      <p id="message">
+        Você me faz a mulher mais feliz desse mundo!
+      </p>
+
+      <p>
+        <button onclick="close_card()">Clique para fechar</button>
+      </p>
+      
+    </div>
+    
+  </body>
+  
 </html>
