@@ -58,9 +58,33 @@
   #message {
     color: black;
     font-family: Courier;
+    font-size: 22pt;
+    text-align: center;
+  }
+  #oi {
+    z-index: 0;
+    position: absolute;
+    background-color: gray;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+  }
+  #on-title {
+    color: black;
+    font-family: Courier;
     font-size: 26pt;
     text-align: center;
   }
-  button {
+  #on-pic {
+    width: 400 px;
+    height: 400px;
+  }
+  #message {
+    color: black;
+    font-family: Courier;
+    font-size: 22pt;
+    text-align: center; 
+  }
+    button {
     background: silver;
   }
